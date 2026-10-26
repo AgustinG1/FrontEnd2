@@ -7,29 +7,23 @@ function Home() {
       <section className="intro-section">
         <p className="eyebrow">SUPERMERCADO LA HUERTA</p>
         <h1>Lo esencial, en su lugar.</h1>
-        <p className="intro-text">
-          Bienvenido a La Huerta. En esta página puedes consultar los productos,
-          sus categorías, precios y existencias.
-        </p>
-        <Link className="text-link" to="/quienes-somos">Conoce nuestro supermercado →</Link>
+        <p className="intro-text">Consulta nuestros productos y su disponibilidad.</p>
+        <Link className="text-link" to="/quienes-somos">Conócenos →</Link>
       </section>
 
       <section className="page inventory-page" aria-labelledby="inventario-title">
         <div className="section-heading">
           <div>
-            <p className="eyebrow">PÁGINA PRINCIPAL</p>
-            <h2 id="inventario-title">Inventario de productos</h2>
+            <p className="eyebrow">PRODUCTOS</p>
+            <h2 id="inventario-title">Inventario</h2>
           </div>
-          <span className="section-note">Precios en pesos chilenos</span>
+          <span className="section-note">Precios en CLP</span>
         </div>
-        <p className="section-description">
-          Consulta el stock disponible de cada presentación. Las cantidades y precios
-          corresponden a datos de ejemplo para esta actividad.
-        </p>
+        <p className="section-description">Precios y existencias por presentación.</p>
 
         <div className="table-container" tabIndex="0" role="region" aria-label="Tabla de inventario; desplaza horizontalmente en pantallas pequeñas">
           <table>
-            <caption>Productos del supermercado La Huerta — inventario de ejemplo</caption>
+            <caption>Productos de La Huerta</caption>
             <thead>
               <tr>
                 <th scope="col">Código</th>
@@ -61,13 +55,13 @@ function Home() {
             </tbody>
           </table>
         </div>
-        <p className="table-note">El stock se expresa en unidades de la presentación indicada.</p>
+        <p className="table-note">Stock por presentación.</p>
       </section>
 
       <section className="help-section">
         <div>
-          <h2>¿Quieres conocer más de La Huerta?</h2>
-          <p>Encuentra nuestra presentación y nuestros datos de contacto en el menú inferior.</p>
+          <h2>¿Tienes alguna consulta?</h2>
+          <p>Conversemos.</p>
         </div>
         <Link className="button" to="/contacto">Contáctanos</Link>
       </section>

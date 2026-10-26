@@ -27,8 +27,8 @@ function App() {
       </main>
 
       <footer className="site-footer">
-        <span>La Huerta · Supermercado ficticio</span>
-        <span>Formativa 1 · Desarrollo Frontend II</span>
+        <span>La Huerta</span>
+        <span>Proyecto académico · PFY2202</span>
       </footer>
 
       <nav className="bottom-menu" aria-label="Menú inferior">
